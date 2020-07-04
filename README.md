@@ -10,12 +10,18 @@ Environment : Python 3.X
 
 ### Description
 This python program allows multi-number detection using Random Forest Classification
+This is an application of applying Random Forest Classification for image detection
 The script may need optimization in variables for better detection accuracy
 Script tested on Python 3.6.4
 
 ### Usage
 1. Run "mnist_pickle.py" to output "pickle.sav"
 2. Run "detect_num.py"
+3. Image with detection results should pop up on screen
+3. If you would want to change the image, modify the following line
+```python
+img = cv2.imread("nums.png")
+```
 
 ### Adjustable Variables
 ```python
